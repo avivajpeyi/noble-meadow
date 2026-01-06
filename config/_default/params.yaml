@@ -42,13 +42,11 @@ hugoblox:
       enable: false
   search:
     enable: true
-
   repository:
     enable: true
     url: "https://github.com/avivajpeyi/website_builder"
     branch: main
     content_dir: content
-
   analytics:
     google:
       id: "G-736274XEVL"
