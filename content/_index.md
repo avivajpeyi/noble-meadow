@@ -74,4 +74,6 @@ sections:
         **Hours:** Weekdays 08:30-16:30 NZT  
 
         [GitHub](https://github.com/avivajpeyi) · [LIGO GitLab](https://git.ligo.org/avi.vajpeyi) · [Itch.io](https://avivajpeyi.itch.io/)
+    design:
+      css_class: contact-walkers
 ---

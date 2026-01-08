@@ -1,9 +1,12 @@
 {{ if .IsHome }}
-  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.2/lib/p5.min.js"></script>
   <script>
     (function () {
       const section = document.querySelector('.hero-flocking');
       if (!section || document.getElementById('flocking-hero')) {
+        return;
+      }
+
+      if (!window.p5) {
         return;
       }
 
@@ -281,9 +284,7 @@
         }
       };
 
-      if (window.p5) {
-        new window.p5(sketch, container);
-      }
+      new window.p5(sketch, container);
     })();
   </script>
 {{ end }}
